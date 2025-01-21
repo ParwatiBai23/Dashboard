@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="dashboard.css" rel="stylesheet">
+</head>
+<body>
+  <div class="grid-container">
+    <!-- Header -->
+    <header>
+      <h1>Dashboard</h1>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-title">Peacock</div>
+      <ul class="sidebar-list">
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-container">
+      <div class="main-title">Dashboard</div>
+
+      <!-- Filters -->
+      <div class="filters">
+        <select>
+          <option value="">Filter by Age</option>
+          <option value="18-25">18-25</option>
+          <option value="26-35">26-35</option>
+          <option value="36-50">36-50</option>
+        </select>
+        <select>
+          <option value="">Filter by Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <input type="date">
+      </div>
+
+      <!-- Charts -->
+      <div class="charts">
+        <div class="charts-card">
+          <h2 class="chart-title">Bar Chart</h2>
+          <div class="bar-chart">
+            <div>40%</div>
+            <div>70%</div>
+            <div>60%</div>
+            <div>50%</div>
+            <div>80%</div>
+          </div>
+        </div>
+        <div class="charts-card">
+          <h2 class="chart-title">Line Chart</h2>
+          <div class="line-chart">
+            <div>123</div>
+            <div>123</div>
+            <div>234</div>
+            <div>66</div>
+            <div>899</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
